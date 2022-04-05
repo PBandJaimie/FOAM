@@ -4,7 +4,7 @@
   "description": "SWE Foam Take Home Challenge for Culture Biosciences",
   "main": "index.js",
   "scripts": {
-    "start": "npx nodemon server/index.js -w server",
+    "start": "nodemon server/index.js -w server",
     "build": "webpack -w"
   },
   "repository": {
@@ -20,6 +20,8 @@
   "dependencies": {
     "axios": "^0.26.1",
     "express": "^4.17.3",
+    "mongodb": "^4.5.0",
+    "mongoose": "^6.2.10",
     "nodemon": "^2.0.15",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
