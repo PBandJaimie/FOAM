@@ -1,26 +1,12 @@
 import React from 'react';
-import { createRoot } from 'react-dom/client';
+import { useState } from 'react';
 
-class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      placeholder: []
-    }
-    //bind here
-  }
-
-  render() {
-    return (
-      <div id="app">
-        Foam
-      </div>
-    )
-  }
+export default function App() {
+  // const [count, setCount] = useState(0);
+  console.log("rendering app")
+  return (
+    <div id="app">
+      Foam
+    </div>
+  )
 }
-
-const container = document.getElementById('app');
-const root = createRoot(container);
-root.render(<App />);
-
-export default App;
