@@ -1,0 +1,20 @@
+{
+  "name": "foam",
+  "version": "1.0.0",
+  "description": "SWE Foam Take Home Challenge for Culture Biosciences",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx nodemon server/index.js -w server",
+    "build": "webpack -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PBandJaimie/foam.git"
+  },
+  "author": "Jaimie Diemer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PBandJaimie/foam/issues"
+  },
+  "homepage": "https://github.com/PBandJaimie/foam#readme"
+}
