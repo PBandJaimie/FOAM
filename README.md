@@ -14,7 +14,7 @@
 ## Load Your Database
 After cloning/forking this repo, if you would like to set up your own mongo database in a way that will work with this code code, follow these instructions (and make sure to save any changes (`command + s`) along the way):
 1. stop your server (`control + c`)
-2. drag your foam-seed.json file into the database folder
+2. drag your foam-seed.json file into the database folder if it is not already there
 3. run `mongoimport --db=foam --collection=pictures --file=database/foam-seed.json`
 4. uncomment (`command + /`) the addIds() function and invocation within the server/controllers.js file on lines 86-99
 5. uncomment (`command + /`) the controllers require statement within the server/index.js file on line 5
