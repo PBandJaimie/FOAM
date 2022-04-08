@@ -9,7 +9,7 @@ You can view a quick video of this project showcasing its functionality [here](h
 1. open your terminal (`control + ~`)
 2. run `npm install`
 3. run `npm run build`
-4. open another terminal window
+4. open another terminal window (`shift + control + ~`) and navigate to it
 5. run `npm start`
 6. navigate to http://localhost:3000
 <br>
@@ -26,7 +26,7 @@ After cloning/forking this repo, if you would like to set up your own mongo data
 7. once the addIds() function has completed ru, close your server once more (`control + c`)
 8. you can re-comment out the addIds() function now (`command + /`) within the server/controllers.js file on lines 86-99
 9. you can also re-comment out the controllers require statement again (`command + /`) within the server/index.js file on line 5
-10. open a new terminal window and open your mongo shell by running `mongo`
+10. open a new terminal window (`shift + control + ~`) and navigate to it, then open your mongo shell by running `mongo`
 11. run `use foam` in the shell
 12. run this query in the shell: `db.pictures.updateMany({}, {$set: {"tagged": "unclassified"}} )`
 13. Congratulations! Your database is loaded! You may navigate back to your server terminal and restart your server (`control + c`)
