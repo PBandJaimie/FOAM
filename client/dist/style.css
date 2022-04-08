@@ -22,14 +22,6 @@ img:hover {
   height: auto;
 }
 
-.foaming {
-  border: 0.5em dotted black;
-}
-
-.nonfoaming {
-  border: 0.5em solid black;
-}
-
 body {
   display: flex;
   font-family: sans-serif;
