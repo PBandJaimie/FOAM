@@ -1,11 +1,12 @@
 # SWE Foam Take Home Challenge for Culture Biosciences
 
+## Demo
 You can view a quick video of this project showcasing its functionality [here](https://www.loom.com/share/05d29b9f1fd34e21b792910443dbceea).
 ***
 <br>
 
 ## Getting started
-1. open your terminal (`control + ` `)
+1. open your terminal (`control + ~`)
 2. run `npm install`
 3. run `npm run build`
 4. open another terminal window
