@@ -1,3 +1,9 @@
+body {
+  display: flex;
+  font-family: sans-serif;
+  justify-content: center;
+}
+
 #heading {
   font-family: 'Rubik Moonrocks', cursive;
   text-align: center;
@@ -29,14 +35,9 @@ img.enlarge:hover {
   cursor: zoom-out;
 }
 
-body {
-  display: flex;
-  font-family: sans-serif;
-}
-
 select {
   display: block;
-  width: 7em;
+  width: 8em;
   color: white;
   background-color: black;
 }
@@ -108,4 +109,14 @@ div.currentPage {
 #radioInput {
   display: flex;
   align-items: start;
+}
+
+#error {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+h3, h4 {
+  text-align: center;
 }
