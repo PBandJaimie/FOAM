@@ -28,7 +28,7 @@ After cloning/forking this repo, if you would like to set up your own mongo data
 10. open a new terminal window and open your mongo shell by running `mongo`
 11. run `use foam` in the shell
 12. run this query in the shell: `db.pictures.updateMany({}, {$set: {"tagged": "unclassified"}} )`
-13. Congratulations! Your database is loaded! You may restart your server (`control + c`)
+13. Congratulations! Your database is loaded! You may navigate back to your server terminal and restart your server (`control + c`)
 <br>
 <br>
 
@@ -54,4 +54,4 @@ After cloning/forking this repo, if you would like to set up your own mongo data
 - Pagination: My client only loads in 20 images at a time.
 - A user can view the current page number, and can view the previos page and the next page with the click of a button.
 - A user can choose to filter and view all of the images at once regardless of that image's classification.
-- By hovering over an image, the user will be shown a slightly zoomed in version of that image.
+- When hovering over an image, the user will be given a chance to click and make the image larger to get a better look.

@@ -18,8 +18,15 @@ img {
 }
 
 img:hover {
-  width: 22em;
-  height: auto;
+  cursor: zoom-in;
+}
+
+img.enlarge {
+  width: 40em;
+}
+
+img.enlarge:hover {
+  cursor: zoom-out;
 }
 
 body {
