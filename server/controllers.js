@@ -81,3 +81,20 @@ exports.updatePicture = (req, res) => {
       return res.sendStatus(404);
     })
 }
+
+
+//UNCOMMENT THE CODE BELOW TO FOLLOW README'S STEP 3
+
+// async function addIds() {
+//   await models.Picture.find({})
+//     .then(async function (allPictures) {
+//       for (i = 0; i < allPictures.length; i++) {
+//         let idString = allPictures[i]._id.toString();
+//         await models.Picture.findOneAndUpdate({_id: idString},{pictureId: i + 1}, {new: true})
+//           .then((pic) => {
+//             console.log('adding pictureId: ', pic.pictureId);
+//           })
+//       }
+//     })
+// }
+// addIds()
