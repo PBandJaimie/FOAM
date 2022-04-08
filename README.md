@@ -1,7 +1,6 @@
 # SWE Foam Take Home Challenge for Culture Biosciences
 
-## Demo
-You can view a quick video of this project showcasing its functionality [here](https://www.loom.com/share/05d29b9f1fd34e21b792910443dbceea).
+## You can view a quick video of this project showcasing its functionality [here](https://www.loom.com/share/05d29b9f1fd34e21b792910443dbceea).
 ***
 <br>
 
