@@ -14,18 +14,17 @@
 ## Load Your Database
 After cloning/forking this repo, if you would like to set up your own mongo database in a way that will work with this code code, follow these instructions (and make sure to save any changes (`command + s`) along the way):
 1. stop your server (`control + c`)
-2. drag your foam-seed.json file into the database folder if it is not already there
-3. run `mongoimport --db=foam --collection=pictures --file=database/foam-seed.json`
-4. uncomment (`command + /`) the addIds() function and invocation within the server/controllers.js file on lines 86-99
-5. uncomment (`command + /`) the controllers require statement within the server/index.js file on line 5
-6. restart (`npm start`) your server
-7. once the addIds() function has completed ru, close your server once more (`control + c`)
-8. you can re-comment out the addIds() function now (`command + /`) within the server/controllers.js file on lines 86-99
-9. you can also re-comment out the controllers require statement again (`command + /`) within the server/index.js file on line 5
-10. open a new terminal window (`shift + control + ~`) and navigate to it, then open your mongo shell by running `mongo`
-11. run `use foam` in the shell
-12. run this query in the shell: `db.pictures.updateMany({}, {$set: {"tagged": "unclassified"}} )`
-13. Congratulations! Your database is loaded! You may navigate back to your server terminal and restart your server (`control + c`)
+2. run `mongoimport --db=foam --collection=pictures --file=database/foam-seed.json`
+3. uncomment (`command + /`) the addIds() function and invocation within the server/controllers.js file on lines 86-99
+4. uncomment (`command + /`) the controllers require statement within the server/index.js file on line 5
+5. restart (`npm start`) your server
+6. once the addIds() function has completed ru, close your server once more (`control + c`)
+7. you can re-comment out the addIds() function now (`command + /`) within the server/controllers.js file on lines 86-99
+8. you can also re-comment out the controllers require statement again (`command + /`) within the server/index.js file on line 5
+9. open a new terminal window (`shift + control + ~`) and navigate to it, then open your mongo shell by running `mongo`
+10. run `use foam` in the shell
+11. run this query in the shell: `db.pictures.updateMany({}, {$set: {"tagged": "unclassified"}} )`
+12. Congratulations! Your database is loaded! You may navigate back to your server terminal and restart your server (`control + c`)
 <br>
 
 ## Tech Stack
