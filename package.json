@@ -4,8 +4,8 @@
   "description": "SWE Foam Take Home Challenge for Culture Biosciences",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server/index.js -w server",
-    "build": "webpack -w"
+    "start": "nodemon server/index.js --watch server --watch client --watch database",
+    "build": "webpack --watch"
   },
   "repository": {
     "type": "git",

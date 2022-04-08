@@ -9,7 +9,7 @@ mongoimport --db=foam --collection=pictures --file=database/foam-seed.json
 
 mongo
 use foam
-db.pictures.updateMany({}, {$set: {"tagged": false}} )
+db.pictures.updateMany({}, {$set: {"tagged": "unclassified"}} )
 
 
 in controllers:

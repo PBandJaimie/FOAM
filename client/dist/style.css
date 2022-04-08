@@ -1,0 +1,112 @@
+#heading {
+  font-family: 'Rubik Moonrocks', cursive;
+  text-align: center;
+  font-size: 6em;
+}
+
+#pictures {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+img {
+  width: 20em;
+  height: auto;
+  border: 0.5em solid white;
+  margin: 0.5em 0.5em 0em 0.5em;
+}
+
+img:hover {
+  width: 22em;
+  height: auto;
+}
+
+.foaming {
+  border: 0.5em dotted black;
+}
+
+.nonfoaming {
+  border: 0.5em solid black;
+}
+
+body {
+  display: flex;
+  font-family: sans-serif;
+}
+
+select {
+  display: block;
+  width: 7em;
+  color: white;
+  background-color: black;
+}
+
+select:hover {
+  cursor: pointer;
+}
+
+option {
+  text-align: center;
+}
+
+#sort {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+div.sortSentence {
+  width: auto;
+  margin: 0.5em;
+}
+
+#tabs {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+div.generic {
+  width: 4em;
+  border: 0.1em solid black;
+  padding: 0.3em 1em;
+  text-align: center;
+  margin: 0.5em;
+  align-self: center;
+}
+
+div.generic.nope:hover {
+  cursor: not-allowed;
+  background-color: white;
+  color: black;
+}
+
+div.generic:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+div.currentPage {
+  width: 3em;
+  border: 0.25em solid black;
+  padding: 1em 0.25em;
+  text-align: center;
+}
+
+#pic {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+#radio {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#radioInput {
+  display: flex;
+  align-items: start;
+}

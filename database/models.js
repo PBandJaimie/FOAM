@@ -1,13 +1,10 @@
 const mongoose = require('mongoose');
 
 let pictureSchema = mongoose.Schema({
-  pictureId: {
-    type: Number,
-    unique: true
-  },
+  pictureId: Number,
   url: String,
   lastModified: Date,
-  tagged: Boolean
+  tagged: String
 });
 
 let Picture = mongoose.model('Picture', pictureSchema)
