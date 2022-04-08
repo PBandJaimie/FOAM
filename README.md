@@ -1,8 +1,6 @@
 # SWE Foam Take Home Challenge for Culture Biosciences
 
 ## You can view a quick video of this project showcasing its functionality [here](https://www.loom.com/share/05d29b9f1fd34e21b792910443dbceea).
-***
-<br>
 
 ## Getting started
 1. open your terminal (`control + ~`)
@@ -11,7 +9,6 @@
 4. open another terminal window (`shift + control + ~`) and navigate to it
 5. run `npm start`
 6. navigate to http://localhost:3000
-<br>
 <br>
 
 ## Load Your Database
@@ -30,7 +27,6 @@ After cloning/forking this repo, if you would like to set up your own mongo data
 12. run this query in the shell: `db.pictures.updateMany({}, {$set: {"tagged": "unclassified"}} )`
 13. Congratulations! Your database is loaded! You may navigate back to your server terminal and restart your server (`control + c`)
 <br>
-<br>
 
 ## Tech Stack
 - React
@@ -40,14 +36,12 @@ After cloning/forking this repo, if you would like to set up your own mongo data
 - MongoDB
 - Mongoose
 <br>
-<br>
 
 ## User Stories
 - As a user, I need to be able to view images from the reactor run.
 - As a user, while viewing images I need the ability to mark them as foaming or not.
 - As a user, I want my decisions to be stored for the next time I use the app.
 - As a user, I need to be able to filter by foaming, non-foaming and unclassified images.
-<br>
 <br>
 
 ## Other goodies
