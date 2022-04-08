@@ -83,8 +83,6 @@ exports.updatePicture = (req, res) => {
 }
 
 
-//UNCOMMENT THE CODE BELOW TO FOLLOW README'S STEP 3
-
 // async function addIds() {
 //   await models.Picture.find({})
 //     .then(async function (allPictures) {
@@ -95,6 +93,7 @@ exports.updatePicture = (req, res) => {
 //             console.log('adding pictureId: ', pic.pictureId);
 //           })
 //       }
+//       console.log('addIds() function complete!')
 //     })
 // }
 // addIds()

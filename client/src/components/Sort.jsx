@@ -1,5 +1,4 @@
 export default function Sort(props) {
-  console.log('sort props: ', props)
   return (
     <div id="sort">
       <div className="sortSentence">I would like to view </div>

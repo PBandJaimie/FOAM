@@ -22,11 +22,9 @@ export default function Pictures(props) {
   } else {
     return (
       <div id="error">
-        <h3>No pictures here!</h3>
+        <h3>No images here!</h3>
         <h4>Try selecting a different viewing option.</h4>
       </div>
     )
   }
 }
-
-// 'logger: ', event.target.classList.add('tagged')

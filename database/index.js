@@ -12,8 +12,6 @@ db
     console.log('MongoDB connection error: ', err)
   })
 
-// const models = require('./models.js');
-
 module.exports = {
   db
 }

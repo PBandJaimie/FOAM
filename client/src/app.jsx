@@ -30,7 +30,6 @@ export default function App() {
   }
 
   const updatePic = (data) => {
-    console.log('update pic: ', data)
     axios.put('/pictures', data)
       .then((response) => {
         getPics(filter, page)
@@ -45,7 +44,6 @@ export default function App() {
     data.classification = event.target.value;
     data.picId = event.target.id;
     data.pageNumber = page;
-    console.log('data in handleradio change: ', data)
     updatePic(data);
   }
 
